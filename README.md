@@ -2,6 +2,44 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Instruction
+
+- Install npm
+> Note: node ver < 16. Recommend using nvm to install and manage node version
+
+1. Install nvm
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+```
+
+2. Step nvm
+```
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+```
+
+3. Install node ver 16
+```
+nvm install 16
+```
+
+4. Use node ver 16
+```
+nvm use 16
+```
+
+5. Install dependencies
+```
+npm install
+```
+
+6. Start app
+```
+npm start
+```
+
+
+(Appendix)
 ## Available Scripts
 
 In the project directory, you can run:
